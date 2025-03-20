@@ -125,12 +125,12 @@ include:
   
     ### Peripheral START ###
   - board: nice_nano_v2
-    shield: corne_left_peripheral
+    shield: corne_left
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: corne_left_peripheral
 
   - board: nice_nano_v2
-    shield: corne_right_peripheral
+    shield: corne_right
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: corne_right_peripheral
 
