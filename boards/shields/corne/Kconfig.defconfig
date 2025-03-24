@@ -61,11 +61,8 @@ endif
 
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
 
-# set up underglow
-config WS2812_STRIP
-    default y
-
 config ZMK_RGB_UNDERGLOW
     default y
+    imply WS2812_STRIP
 
 endif
