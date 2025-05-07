@@ -82,11 +82,10 @@ include:
     shield: corne_left_peripheral nice_view_adapter nice_view
     artifact-name: nice_corne_left_peripheral_view
 
-    # peripheral_left + puchi_ble_v1 + nice_view_gem
-  - board: puchi_ble_v1
-    shield: corne_left_peripheral nice_view_adapter nice_view
-    artifact-name: puchi_corne_left_peripheral_view
-    ### nice_view END ###
+  - board: nice_nano_v2
+    shield: corne_right_peripheral nice_view_adapter nice_view
+    artifact-name: nice_corne_right_peripheral_view
+
 
   - board: seeeduino_xiao_ble
     shield: corne_dongle_xiao prospector_adapter
@@ -239,13 +238,10 @@ include:
   # ### SPLITKB AURORA SOFLE END ###
 
   ### SETTINGS_RESET START ###
-  - board: nice_nano_v2
-    shield: settings_reset
-    artifact-name: nice_settings_reset
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: xiao_settings_reset
-  - board: puchi_ble_v1
-    shield: settings_reset
-    artifact-name: puchi_settings_reset
+  # - board: nice_nano_v2
+  #   shield: settings_reset
+  #   artifact-name: nice_settings_reset
+  # - board: seeeduino_xiao_ble
+  #   shield: settings_reset
+  #   artifact-name: xiao_settings_reset
   ### SETTINGS_RESET END ###
